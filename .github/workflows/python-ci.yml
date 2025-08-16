@@ -6,7 +6,7 @@ jobs:
   build-test-deploy:
     runs-on: ubuntu-latest
     
-    steps:
+    steps: 
       # 1. Checkout Code
       - name: Checkout repository
         uses: actions/checkout@v3
